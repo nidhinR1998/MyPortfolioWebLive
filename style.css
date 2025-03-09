@@ -93,22 +93,6 @@ a:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-/* .section__pic-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-@keyframes rotateProfile {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */
-
 @media screen and (max-width: 768px) {
   .logo-img {
      height: 55px; /* Adjust for smaller screens */
