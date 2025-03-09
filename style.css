@@ -80,6 +80,35 @@ a:hover {
   width: auto;  /* Maintain aspect ratio */
 }
 
+.section__pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  border-radius: 50%;
+  border: 4px solid #4CAF50; /* Add border color */
+  animation: rotateProfile 6s linear infinite;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.section__pic-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@keyframes rotateProfile {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .logo-img {
      height: 55px; /* Adjust for smaller screens */
